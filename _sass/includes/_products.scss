@@ -1,0 +1,81 @@
+#queue, #survey {
+  .btn-primary {
+    background-color: $cw-green;
+  }
+
+  section.bg-header {
+    min-height: 900px;
+    .background {
+      background-size: cover;
+    }
+    h3 {
+      font-weight: 400;
+      line-height: 40px;
+      margin-bottom: 40px
+    }
+    h3, p {
+      color: white;
+    }
+    a {
+      margin-top: 40px;
+    }
+  }
+
+  section.feature-list {
+    h3 {
+      font-weight: 400;
+    }
+    p {
+      font-size: 18px;
+    }
+    .row {
+      margin-bottom: 80px;
+    }
+    .features {
+      ul {
+        padding-left: 20px;
+        color: #7f8c8d;
+      }
+      li {
+        line-height: 28px;
+      }
+    }
+    .carousel {
+      margin-top: 200px;
+    }
+    .carousel-indicators {
+      width: auto;
+    }
+  }
+
+  section.cta {
+    background-color: $cw-blue;
+    color: white;
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  section.quotes {
+    .quote-author {
+      color: #2c3e50;
+      line-height: 30px;
+    }
+  }
+}
+
+#queue {
+  #queue-header {
+    .background {
+      background-image: url("/img/products/queue/background.jpg");
+    }
+  }
+}
+
+#survey {
+  #survey-header {
+    .background {
+      background-image: url("/img/products/survey/background.jpg");
+    }
+  }
+}

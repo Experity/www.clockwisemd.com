@@ -1,0 +1,118 @@
+#index {
+  h3 {
+    font-size: 38px;
+  }
+
+  .btn-primary {
+    background-color: $cw-green;
+  }
+
+  .content-3 .features > [class*="col-sm-"] {
+    padding-bottom: 80px;
+  }
+  .content-3 .features:last-child > [class*="col-sm-"], .content-3 .features.last > [class*="col-sm-"] {
+    padding-bottom: 0;
+  }
+
+  #index-header {
+    .background {
+      background-image: none;
+      background-color: $cw-blue;
+    }
+    h3 {
+      color: white;
+      margin-top: 10px;
+    }
+    p {
+      color: #bdc3c7;
+    }
+    .player-wrapper {
+      width: 57.26495726495726%;
+    }
+  }
+
+  #index-logos {
+    div {
+      background: #e1e1e1;
+    }
+    img {
+      margin: 0 20px;
+    }
+  }
+
+  #index-features {
+    .features {
+      text-align: center;
+      img {
+        left: 135px;
+      }
+    }
+  }
+
+  #index-quotes {
+    .background {
+      background-image: url("/img/index/bg-for-quotes@2x.jpg");
+      opacity: 1;
+    }
+    .quote-text {
+      color: white;
+    }
+    .quote-author {
+      color: white;
+      line-height: 30px;
+    }
+  }
+
+  #index-roi {
+    h3 {
+      margin-bottom: 90px;
+    }
+    h4 {
+      color: #e3e6e7;
+    }
+    .features {
+      text-align: center;
+    }
+
+    .col-sm-3 > h4 {
+      font-size: 5em;
+      .percentage {
+        font-size: 0.5em;
+      }
+      .suffix {
+        font-size: 1em;
+      }
+    }
+    .col-sm-8 > h4 {
+      font-size: 3em;
+    }
+    @media (min-width: $screen-md-min) {
+      .col-sm-8 > h4 {
+        font-size: 6.5em;
+      }
+    }
+  }
+
+  #index-demo-cta {
+    background-color: $cw-blue;
+    color: white;
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  #index-markets {
+    a {
+      text-transform: uppercase;
+    }
+    .features {
+      text-align: center;
+      img {
+        left: 85px;
+      }
+    }
+    p {
+      margin: 0 0 30px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+---
+layout: default
+title: Events - Clockwise.MD
+permalink: /resources/events/
+redirect_from:
+  - /resources/
+id: events
+---
+
+<section id="events-header" class="header-11-sub bg-header">
+  <div class="background">&nbsp;</div>
+</section>
+
+<section id="events-description" class="crew-4 description">
+  <div class="container">
+    <h4>Find an Event Near You</h4>
+    <p>
+      At Clockwise.MD, we're always interested in talking shop at events across the country. If
+      you'd like to learn more about our solution, or just want to chat with our team, come see
+      us at any of the events below!
+    </p>
+  </div>
+</section>
+
+<section id="events-list" class="crew-4 list-of-things">
+  <div class="container">
+    {% for thing in site.data.events %}
+    <div class="thing">
+      <h6>{{ thing.title }}</h6>
+      <div class='source'>{{ thing.source }}</div>
+      <div class='date'>{{ thing.display_date }}</div>
+      <p>{{ thing.description }}</p>
+      <div class='link'><a href="{{ thing.link }}">Learn More &gt;</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

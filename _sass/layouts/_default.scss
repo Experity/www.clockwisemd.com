@@ -1,0 +1,14 @@
+#not_found {
+  section {
+    margin-top: 2em;
+    margin-bottom: 10em;
+  }
+}
+
+#clockwise-map {
+  min-height: 600px;
+  .background {
+    background-image: url("/img/about/map.jpg");
+    background-size: cover;
+  }
+}

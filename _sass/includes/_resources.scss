@@ -1,0 +1,117 @@
+#cases, #papers, #events, #news {
+  .btn-primary {
+    background-color: $cw-green;
+  }
+
+  section.bg-header {
+    min-height: 600px;
+    .background {
+      background-size: cover;
+    }
+  }
+
+  section.description {
+    padding-top: 80px;
+    padding-bottom: 0;
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+
+  section.list-of-cards, section.list-of-things {
+    a {
+      color: $cw-blue;
+    }
+  }
+}
+
+#cases, #papers {
+  section.list-of-cards {
+    .members .member, .members .photo-wrapper, .fui-eye {
+      width: 350px;
+    }
+    .members .photo-wrapper, .fui-eye {
+      height: 215px;
+    }
+    .members .member-wrapper {
+      vertical-align: top;
+    }
+    .members .photo {
+      opacity: 0.75;
+    }
+    .members .name {
+      color: $cw-blue;
+    }
+    .contacts {
+      .website {
+        margin-bottom: 15px;
+      }
+      a.whitepaper {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  section.cta {
+    background-color: $cw-blue;
+    color: white;
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  section.quotes {
+    .quote-author {
+      color: #2c3e50;
+      line-height: 30px;
+    }
+  }
+}
+
+#events, #news {
+  section.list-of-things {
+    padding-top: 0;
+    padding-bottom: 110px;
+    .thing {
+      padding-top: 60px;
+      p {
+        margin: 15px 0;
+      }
+      .link {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+#cases {
+  #cases-header {
+    .background {
+      background-image: url("/img/resources/cases/background.jpg");
+    }
+  }
+}
+
+#papers {
+  #papers-header {
+    .background {
+      background-image: url("/img/resources/papers/background.jpg");
+    }
+  }
+}
+
+#events {
+  #events-header {
+    .background {
+      background-image: url("/img/resources/events/background.jpg");
+    }
+  }
+}
+
+#news {
+  #news-header {
+    .background {
+      background-image: url("/img/resources/news/background.jpg");
+    }
+  }
+}

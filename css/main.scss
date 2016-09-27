@@ -1,0 +1,46 @@
+---
+---
+
+// ui_kit, commented items are not used (yet)
+@import 'ui_kit/header';
+@import 'ui_kit/content';
+// @import 'ui_kit/blog';
+@import 'ui_kit/contacts';
+@import 'ui_kit/crew';
+// @import 'ui_kit/price';
+// @import 'ui_kit/projects';
+@import 'ui_kit/footer';
+
+// bootstrap vars
+
+// Extra small screen / phone
+$screen-xs-min: 480px;
+// Small screen / tablet
+$screen-sm-min: 768px;
+// Medium screen / desktop
+$screen-md-min: 992px;
+// Large screen / wide desktop
+$screen-lg-min: 1200px;
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+
+// globals
+$cw-blue:       #1d7cb7;
+$cw-green:      #a2d163;
+
+// shared across layouts
+@import 'layouts/default';
+
+// sections
+@import 'includes/header';
+@import 'includes/footer';
+
+// pages
+@import 'includes/index';
+@import 'includes/about';
+@import 'includes/contacts';
+@import 'includes/markets';
+@import 'includes/products';
+@import 'includes/resources';

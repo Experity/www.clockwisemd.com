@@ -1,0 +1,111 @@
+#er, #lab, #sc, #uc {
+  .btn-primary {
+    background-color: $cw-green;
+  }
+
+  section.bg-header {
+    min-height: 600px;
+    .background {
+      background-size: cover;
+    }
+  }
+
+  section.description {
+    padding-top: 80px;
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+
+  section.feature-list {
+    padding: 0;
+    h6 {
+      display: inline;
+      font-size: 1.2em;
+    }
+    div.row {
+      padding: 20px 0;
+      img {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  section.benefits {
+    h6 {
+      color: #34495e;
+      font-size: 24px;
+    }
+    .box-1 {
+      top: 0;
+    }
+    .box-2 {
+      top: 380px;
+    }
+    .box-3 {
+      top: 780px;
+    }
+    .box-5 {
+      top: 180px;
+    }
+    .box-6 {
+      top: 580px;
+    }
+    .box-7 {
+      top: 980px;
+    }
+    .actions {
+      margin-top: 120px;
+    }
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  section.cta {
+    background-color: $cw-blue;
+    color: white;
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  section.quotes {
+    .quote-author {
+      color: #2c3e50;
+      line-height: 30px;
+    }
+  }
+}
+
+#er {
+  #er-header {
+    .background {
+      background-image: url("/img/markets/er/clock.jpg");
+    }
+  }
+}
+
+#lab {
+  #lab-header {
+    .background {
+      background-image: url("/img/markets/lab/scanner.jpg");
+    }
+  }
+}
+
+#sc {
+  #sc-header {
+    .background {
+      background-image: url("/img/markets/sc/waiting-room.jpg");
+    }
+  }
+}
+
+#uc {
+  #uc-header {
+    .background {
+      background-image: url("/img/markets/uc/waiting-room.jpg");
+    }
+  }
+}

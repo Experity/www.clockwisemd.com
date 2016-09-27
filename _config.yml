@@ -1,0 +1,52 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.clockwisemd.com" # the base hostname & protocol for your site
+timezone: America/New_York
+# future: true
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Clockwise.MD
+  avatar: avatar.png
+  gravatar: # Email MD5 hash
+  description: "Web site for Clockwise.MD" # used by search engines
+
+  # Scripts
+  google_analytics: "UA-38490218-1"
+
+# collections:
+#   - cases
+#   - papers
+#   - events
+#   - news
+#   - pets
+
+# PAGINATION
+paginate: 5
+paginate_path: "page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - .gitignore
