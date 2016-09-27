@@ -14,7 +14,6 @@ GEM
       jmespath (~> 1.0)
     aws-sdk-resources (2.6.3)
       aws-sdk-core (= 2.6.3)
-    byebug (9.0.5)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -174,7 +173,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   github-pages (= 96)
   jekyll-assets
   jekyll-paginate
