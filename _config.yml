@@ -46,6 +46,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-assets
 
 exclude:
   - README.md

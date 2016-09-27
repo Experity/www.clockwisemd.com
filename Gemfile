@@ -10,5 +10,6 @@ gem 'github-pages', versions['github-pages'] # includes gem 'jekyll'
 gem 'therubyracer'
 gem 'jekyll-paginate'
 
-# debugging
-# gem 'byebug'
+# deployment
+gem 's3_website'
+
