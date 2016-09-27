@@ -719,7 +719,7 @@ section * {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #ebedee url('/vendor/common-files/img/header/ipad@2x.png') 100% 50% no-repeat;
+  background: #ebedee url(asset_path('common-files/img/header/ipad@2x.png')) 100% 50% no-repeat;
   -webkit-background-size: 826px 772px;
   -moz-background-size: 826px 772px;
   -o-background-size: 826px 772px;
@@ -1040,7 +1040,7 @@ section * {
   }
 }
 .projects-2 .project-1 {
-  background-image: url('/vendor/common-files/img/Hawaii_001.jpg');
+  background-image: url(asset_path('common-files/img/Hawaii_001.jpg'));
 }
 .projects-2 .project-1 .container h1 {
   font-size: 50px;
@@ -1072,7 +1072,7 @@ section * {
   }
 }
 .projects-2 .project-2 {
-  background-image: url('/vendor/common-files/img/Italy_001.jpg');
+  background-image: url(asset_path('common-files/img/Italy_001.jpg'));
 }
 @media (max-width: 480px) {
   .projects-2 .project-2 .hero-unit h1 {
@@ -1080,7 +1080,7 @@ section * {
   }
 }
 .projects-2 .project-3 {
-  background-image: url('/vendor/common-files/img/NY_002.jpg');
+  background-image: url(asset_path('common-files/img/NY_002.jpg'));
 }
 .projects-2 .project-3 [class*="fui-"] {
   font-size: 95px;

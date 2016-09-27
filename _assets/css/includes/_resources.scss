@@ -87,7 +87,7 @@
 #cases {
   #cases-header {
     .background {
-      background-image: url("/img/resources/cases/background.jpg");
+      background-image: url(asset_path('resources/cases/background.jpg'));
     }
   }
 }
@@ -95,7 +95,7 @@
 #papers {
   #papers-header {
     .background {
-      background-image: url("/img/resources/papers/background.jpg");
+      background-image: url(asset_path('resources/papers/background.jpg'));
     }
   }
 }
@@ -103,7 +103,7 @@
 #events {
   #events-header {
     .background {
-      background-image: url("/img/resources/events/background.jpg");
+      background-image: url(asset_path('resources/events/background.jpg'));
     }
   }
 }
@@ -111,7 +111,7 @@
 #news {
   #news-header {
     .background {
-      background-image: url("/img/resources/news/background.jpg");
+      background-image: url(asset_path('resources/news/background.jpg'));
     }
   }
 }

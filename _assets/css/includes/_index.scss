@@ -14,7 +14,7 @@
     padding-bottom: 0;
   }
 
-  #index-video {
+  #index-header {
     .background {
       background-image: none;
       background-color: $cw-blue;
@@ -26,18 +26,32 @@
     p {
       color: #bdc3c7;
     }
+    .player-wrapper {
+      width: 57.26495726495726%;
+    }
   }
 
-  #index-logos a {
-    background: #e1e1e1;
+  #index-logos {
+    div {
+      background: #e1e1e1;
+    }
+    img {
+      margin: 0 20px;
+    }
   }
-  #index-logos div {
-    background: #e1e1e1;
+
+  #index-features {
+    .features {
+      text-align: center;
+      img {
+        left: 135px;
+      }
+    }
   }
 
   #index-quotes {
     .background {
-      background-image: url("/img/index/bg-for-quotes@2x.jpg");
+      background-image: url(asset_path('index/bg-for-quotes@2x.jpg'));
       opacity: 1;
     }
     .quote-text {
@@ -56,6 +70,10 @@
     h4 {
       color: #e3e6e7;
     }
+    .features {
+      text-align: center;
+    }
+
     .col-sm-3 > h4 {
       font-size: 5em;
       .percentage {
@@ -65,8 +83,13 @@
         font-size: 1em;
       }
     }
-    .col-sm-7 > h4 {
-      font-size: 6.5em;
+    .col-sm-8 > h4 {
+      font-size: 3em;
+    }
+    @media (min-width: $screen-md-min) {
+      .col-sm-8 > h4 {
+        font-size: 6.5em;
+      }
     }
   }
 
@@ -87,6 +110,9 @@
       img {
         left: 85px;
       }
+    }
+    p {
+      margin: 0 0 30px;
     }
   }
 }

@@ -8,7 +8,7 @@
 #clockwise-map {
   min-height: 600px;
   .background {
-    background-image: url("/img/about/map.jpg");
+    background-image: url(asset_path('about/map.jpg'));
     background-size: cover;
   }
 }

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-5">
-        <img src="/img/logo_white@2x.png" width="310" height="70" alt="Clockwise Logo">
+        {% img 'logo_white@2x.png' width:310 height:70 alt:'Clockwise.MD Logo' %}
         <div class="address">
           <p>554 North Avenue NW</p>
           <p>Atlanta, GA 30318</p>
@@ -41,13 +41,13 @@
   </div>
 </footer>
 
-<script src="/vendor/common-files/js/jquery-1.10.2.min.js"></script>
-<script src="/vendor/flat-ui/js/bootstrap.min.js"></script>
-<script src="/vendor/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-<script src="/vendor/common-files/js/modernizr.custom.js"></script>
-<script src="/vendor/common-files/js/page-transitions.js"></script>
-<script src="/vendor/common-files/js/easing.min.js"></script>
-<script src="/vendor/common-files/js/jquery.svg.js"></script>
-<script src="/vendor/common-files/js/jquery.svganim.js"></script>
-<script src="/vendor/common-files/js/jquery.parallax.min.js"></script>
-<script src="/vendor/common-files/js/startup-kit.js"></script>
+{% js common-files/js/jquery-1.10.2.min.js %}
+{% js flat-ui/js/bootstrap.min.js %}
+{% js common-files/js/jquery.scrollTo-1.4.3.1-min.js %}
+{% js common-files/js/modernizr.custom.js %}
+{% js common-files/js/page-transitions.js %}
+{% js common-files/js/easing.min.js %}
+{% js common-files/js/jquery.svg.js %}
+{% js common-files/js/jquery.svganim.js %}
+{% js common-files/js/jquery.parallax.min.js %}
+{% js common-files/js/startup-kit.js %}

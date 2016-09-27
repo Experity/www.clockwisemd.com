@@ -81,7 +81,7 @@
 #er {
   #er-header {
     .background {
-      background-image: url("/img/markets/er/clock.jpg");
+      background-image: url(asset_path('markets/er/clock.jpg'));
     }
   }
 }
@@ -89,7 +89,7 @@
 #lab {
   #lab-header {
     .background {
-      background-image: url("/img/markets/lab/scanner.jpg");
+      background-image: url(asset_path('markets/lab/scanner.jpg'));
     }
   }
 }
@@ -97,7 +97,7 @@
 #sc {
   #sc-header {
     .background {
-      background-image: url("/img/markets/sc/waiting-room.jpg");
+      background-image: url(asset_path('markets/sc/waiting-room.jpg'));
     }
   }
 }
@@ -105,7 +105,7 @@
 #uc {
   #uc-header {
     .background {
-      background-image: url("/img/markets/uc/waiting-room.jpg");
+      background-image: url(asset_path('markets/uc/waiting-room.jpg'));
     }
   }
 }

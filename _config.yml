@@ -15,13 +15,6 @@ theme_settings:
   # Scripts
   google_analytics: "UA-38490218-1"
 
-# collections:
-#   - cases
-#   - papers
-#   - events
-#   - news
-#   - pets
-
 # PAGINATION
 paginate: 5
 paginate_path: "page:num"
@@ -36,7 +29,7 @@ kramdown:
   hard_wrap: false
 
 sass:
-  sass_dir: _sass
+  sass_dir: _assets
   style: :compressed
 
 gems:
@@ -51,3 +44,25 @@ gems:
 exclude:
   - README.md
   - .gitignore
+
+assets:
+  compress:
+    css: true
+    js: true
+
+  digest: false
+
+  # cdn: https://www-clockwisemd-com.s3-website-us-east-1.amazonaws.com
+  cdn: https://www-base.clockwisemd.com
+
+  assets:
+  - "*.png"
+  - "*.jpg"
+  - "*.svg"
+  - "*.ttf"
+  - "*.woff"
+
+  sources:
+    - _assets/css
+    - _assets/img
+    - _assets/js

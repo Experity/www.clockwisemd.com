@@ -599,7 +599,7 @@ button:active {
   padding: 0;
   width: 30px;
   height: 30px;
-  background: url("/vendor/common-files/icons/menu-icon@2x.png") 50% no-repeat;
+  background: url(asset_path('common-files/icons/menu-icon@2x.png')) 50% no-repeat;
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -993,7 +993,7 @@ section * {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("/vendor/common-files/img/NY_002.jpg");
+  background-image: url(asset_path('common-files/img/NY_002.jpg'));
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1001,7 +1001,7 @@ section * {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background-image: url("/vendor/common-files/img/header/img-2.jpg");
+  background-image: url(asset_path('common-files/img/header/img-2.jpg'));
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1009,7 +1009,7 @@ section * {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
-  background-image: url("/vendor/common-files/img/header/img-3.jpg");
+  background-image: url(asset_path('common-files/img/header/img-3.jpg'));
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1316,7 +1316,7 @@ section * {
   background-color: #138871;
 }
 .header-3 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-dark@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-dark@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -1447,7 +1447,7 @@ section * {
   margin-left: 20px;
 }
 .header-4 .background {
-  background-image: url("/vendor/common-files/img/Hawaii_001.jpg");
+  background-image: url(asset_path('common-files/img/Hawaii_001.jpg'));
   opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;
@@ -2128,7 +2128,7 @@ section * {
   display: block;
 }
 .header-6-sub .background {
-  background-image: url("/vendor/common-files/img/NY_001.jpg");
+  background-image: url(asset_path('common-files/img/NY_001.jpg'));
   opacity: 50;
   filter: alpha(opacity=5000);
   opacity: 0.5;
@@ -2712,7 +2712,7 @@ section * {
   z-index: 2;
 }
 .header-8 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-header-8@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-header-8@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -2741,7 +2741,7 @@ section * {
   color: #2c3e50;
 }
 .header-8-sub .background {
-  background-image: url("/vendor/common-files/img/Italy_001.jpg");
+  background-image: url(asset_path('common-files/img/Italy_001.jpg'));
   background-position: 50% 0;
   opacity: 100;
   filter: alpha(opacity=10000);
@@ -2863,7 +2863,7 @@ section * {
   text-align: center;
 }
 .header-9-sub .background {
-  background-image: url('/vendor/common-files/img/header/img-4.jpg');
+  background-image: url(asset_path('common-files/img/header/img-4.jpg'));
   opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;
@@ -3134,7 +3134,7 @@ section * {
   }
 }
 .header-10-sub .background {
-  background-image: url('/vendor/common-files/img/header/img-3.jpg');
+  background-image: url(asset_path('common-files/img/header/img-3.jpg'));
   opacity: 20;
   filter: alpha(opacity=2000);
   opacity: 0.2;
@@ -3320,7 +3320,7 @@ section * {
   color: #16a085;
 }
 .header-11 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-header-8@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-header-8@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -3366,7 +3366,7 @@ section * {
   color: #16191c;
 }
 .header-11-sub .background {
-  background-image: url("/vendor/common-files/img/Brazil_002.jpg");
+  background-image: url(asset_path('common-files/img/Brazil_002.jpg'));
   opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;
@@ -3621,7 +3621,7 @@ section * {
   color: rgba(255, 255, 255, 0.7);
 }
 .header-12-sub .background {
-  background-image: url("/vendor/common-files/img/NY_001.jpg");
+  background-image: url(asset_path('common-files/img/NY_001.jpg'));
   opacity: 30;
   filter: alpha(opacity=3000);
   opacity: 0.3;
@@ -3937,7 +3937,7 @@ section * {
   display: block;
 }
 .header-13-sub .background {
-  background-image: url("/vendor/common-files/img/header/img-1.jpg");
+  background-image: url(asset_path('common-files/img/header/img-1.jpg'));
   opacity: 90;
   filter: alpha(opacity=9000);
   opacity: 0.9;
@@ -4095,7 +4095,7 @@ section * {
   }
 }
 .header-14-sub .background {
-  background-image: url("/vendor/common-files/img/NY_001.jpg");
+  background-image: url(asset_path('common-files/img/NY_001.jpg'));
   opacity: 20;
   filter: alpha(opacity=2000);
   opacity: 0.2;
@@ -4269,7 +4269,7 @@ section * {
   color: #bdc3c7;
 }
 .header-15 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -4340,7 +4340,7 @@ section * {
   }
 }
 .header-15-sub .background {
-  background-image: url("/vendor/common-files/img/NY_001.jpg");
+  background-image: url(asset_path('common-files/img/NY_001.jpg'));
   opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;
@@ -4968,7 +4968,7 @@ section * {
   color: #1abc9c;
 }
 .header-17 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-header-17@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-header-17@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -5700,7 +5700,7 @@ section * {
 }
 .header-19 .navbar .navbar-toggle {
   display: block;
-  background-image: url("/vendor/common-files/icons/menu-icon-dark@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-dark@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -5896,7 +5896,7 @@ section * {
   color: #3498db;
 }
 .header-20 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-header-17@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-header-17@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -6230,7 +6230,7 @@ section * {
   color: #e74c3c;
 }
 .header-21 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-header-21@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-header-21@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -6436,7 +6436,7 @@ section * {
   color: #979c9f;
 }
 .header-22 .navbar .navbar-toggle {
-  background-image: url("/vendor/common-files/icons/menu-icon-dark@2x.png");
+  background-image: url(asset_path('common-files/icons/menu-icon-dark@2x.png'));
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -6614,7 +6614,7 @@ section * {
   background: #1b1e21;
 }
 .header-23-sub .background {
-  background-image: url('/vendor/common-files/img/header/img-video.jpg');
+  background-image: url(asset_path('common-files/img/header/img-video.jpg'));
 }
 @media (max-width: 991px) {
   .header-23-sub {
@@ -6655,7 +6655,7 @@ section * {
   width: 67px;
   height: 67px;
   margin: 0 50px;
-  background: url("/vendor/common-files/img/header/btn-play.png") no-repeat;
+  background: url(asset_path('common-files/img/header/btn-play.png')) no-repeat;
 }
 @media (max-width: 991px) {
   .header-23-sub .hero-unit .btn-play {

@@ -67,7 +67,7 @@
 #queue {
   #queue-header {
     .background {
-      background-image: url("/img/products/queue/background.jpg");
+      background-image: url(asset_path('products/queue/background.jpg'));
     }
   }
 }
@@ -75,7 +75,7 @@
 #survey {
   #survey-header {
     .background {
-      background-image: url("/img/products/survey/background.jpg");
+      background-image: url(asset_path('products/survey/background.jpg'));
     }
   }
 }

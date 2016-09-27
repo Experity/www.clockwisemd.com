@@ -2320,7 +2320,7 @@ section * {
 }
 .content-18 .carousel:before {
   content: '';
-  background: url("/vendor/common-files/icons/quote-down-mb@2x.png") no-repeat;
+  background: url(asset_path('common-files/icons/quote-down-mb@2x.png')) no-repeat;
   -webkit-background-size: 31px 22px;
   -moz-background-size: 31px 22px;
   -o-background-size: 31px 22px;
@@ -2458,7 +2458,7 @@ section * {
 }
 .content-19 .col-sm-7 .quote:before {
   content: '';
-  background: url("/vendor/common-files/icons/quote-up-mb@2x.png") no-repeat;
+  background: url(asset_path('common-files/icons/quote-up-mb@2x.png')) no-repeat;
   -webkit-background-size: 31px 22px;
   -moz-background-size: 31px 22px;
   -o-background-size: 31px 22px;
@@ -2947,7 +2947,7 @@ section * {
 }
 .content-21 .features.features-tabs .features-bodies {
   position: relative;
-  background: #ebedee url('/vendor/common-files/img/content/screen@2x.png') 0 50% no-repeat;
+  background: #ebedee url(asset_path('common-files/img/content/screen@2x.png')) 0 50% no-repeat;
   -webkit-background-size: 322px 418px;
   -moz-background-size: 322px 418px;
   -o-background-size: 322px 418px;
@@ -3088,7 +3088,7 @@ section * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   max-width: 220px;
-  background: url("/vendor/common-files/img/content/line-l@2x.png") no-repeat scroll center top / 50% auto rgba(0, 0, 0, 0);
+  background: url(asset_path('common-files/img/content/line-l@2x.png')) no-repeat scroll center top / 50% auto rgba(0, 0, 0, 0);
   padding-top: 110px;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -4487,11 +4487,11 @@ section * {
 }
 .content-34 .box-1 {
   padding-top: 105px;
-  background: url('/vendor/common-files/img/content/icon-1.png') 15px 0 no-repeat;
+  background: url(asset_path('common-files/img/content/icon-1.png')) 15px 0 no-repeat;
 }
 .content-34 .box-2 {
   padding-top: 85px;
-  background: url('/vendor/common-files/img/content/icon-2.png') 15px 0 no-repeat;
+  background: url(asset_path('common-files/img/content/icon-2.png')) 15px 0 no-repeat;
 }
 .content-35 {
   position: relative;
@@ -4730,7 +4730,7 @@ section * {
 }
 .content-35 .contact {
   padding: 30px 0 10px 92px;
-  background: url('/vendor/common-files/img/content/anthony.png') no-repeat center left;
+  background: url(asset_path('common-files/img/content/anthony.png')) no-repeat center left;
   color: #7f8c8d;
   font-size: 16px;
   line-height: 26px;
@@ -4979,7 +4979,7 @@ section * {
 .largeScreenshots span {
   display: block;
   height: 36px;
-  background: #e1e1e1 url('/vendor/common-files/img/content/browser.png') no-repeat left center;
+  background: #e1e1e1 url(asset_path('common-files/img/content/browser.png')) no-repeat left center;
   margin: 0 auto;
   width: 798px;
   border-radius: 5px 5px 0 0;
@@ -4991,7 +4991,7 @@ section * {
   transition: 0.25s;
 }
 .largeScreenshots span:hover {
-  background: #e1e1e1 url('/vendor/common-files/img/content/browser-c.png') no-repeat left center;
+  background: #e1e1e1 url(asset_path('common-files/img/content/browser-c.png')) no-repeat left center;
 }
 .largeScreenshots .next,
 .largeScreenshots .prev {
@@ -5007,7 +5007,7 @@ section * {
   opacity: 1;
 }
 .largeScreenshots .next {
-  background: url('/vendor/common-files/img/content/next.svg') no-repeat 50% 50%;
+  background: url(asset_path('common-files/img/content/next.svg')) no-repeat 50% 50%;
   margin-left: 400px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -5016,7 +5016,7 @@ section * {
   transition: 0.5s;
 }
 .largeScreenshots .prev {
-  background: url('/vendor/common-files/img/content/prev.svg') no-repeat 50% 50%;
+  background: url(asset_path('common-files/img/content/prev.svg')) no-repeat 50% 50%;
   margin-left: -600px;
   -webkit-transition: 0.35s;
   -moz-transition: 0.35s;
@@ -5045,7 +5045,7 @@ section * {
   top: 2px;
 }
 .close {
-  background: url('/vendor/common-files/img/content/close.svg') no-repeat center;
+  background: url(asset_path('common-files/img/content/close.svg')) no-repeat center;
   position: fixed;
   top: 100px;
   right: 27px;

@@ -12,6 +12,10 @@ Web site for Clockwise.MD
 
 Just commit changes and push your changes, the site is rebuilt automatically.
 
+## To deploy manually
+
+`JEKYLL_ENV=production jekyll build && s3_website push`
+
 ## To deploy
 
 Just commit and push, CI will automatically deploy

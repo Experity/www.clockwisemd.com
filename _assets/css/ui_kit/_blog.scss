@@ -1107,7 +1107,7 @@ section * {
 .blog-3 .img {
   height: 380px;
   margin: 110px 0;
-  background: url('/vendor/common-files/img/Brazil_002.jpg') 50% 80% no-repeat;
+  background: url(asset_path('common-files/img/Brazil_002.jpg')) 50% 80% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1137,7 +1137,7 @@ section * {
   font-weight: 300;
 }
 .blog-3 .quote:before {
-  content: url('/vendor/common-files/icons/quote-up.png');
+  content: url(asset_path('common-files/icons/quote-up.png'));
   position: absolute;
   top: -17px;
   left: -40px;
@@ -1241,7 +1241,7 @@ section * {
   letter-spacing: -1px;
 }
 .blog-4 .quote:before {
-  content: url('/vendor/common-files/icons/quote-up.png');
+  content: url(asset_path('common-files/icons/quote-up.png'));
   position: absolute;
   top: -17px;
   left: -40px;
@@ -1504,7 +1504,7 @@ section * {
   letter-spacing: -1px;
 }
 .blog-5 .quote:before {
-  content: url('/vendor/common-files/icons/quote-down.png');
+  content: url(asset_path('common-files/icons/quote-down.png'));
   display: block;
   margin: 0 auto 35px;
   text-align: center;

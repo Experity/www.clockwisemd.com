@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% css main %}
 
-  <link rel="stylesheet" href="/vendor/flat-ui/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="/vendor/flat-ui/css/flat-ui.css">
-  <link rel="stylesheet" href="/vendor/common-files/css/icon-font.css">
-  <link rel="stylesheet" href="/vendor/common-files/css/animations.css">
+  {% css flat-ui/bootstrap/css/bootstrap.css %}
+  {% css flat-ui/css/flat-ui.css %}
+  {% css common-files/css/icon-font.css %}
+  {% css common-files/css/animations.css %}
 
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">

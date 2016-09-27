@@ -11,5 +11,5 @@ gem 'therubyracer'
 gem 'jekyll-paginate'
 
 # deployment
+gem 'jekyll-assets'
 gem 's3_website'
-
