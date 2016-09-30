@@ -1,4 +1,12 @@
 #contact {
+  #clockwise-map {
+    min-height: 400px;
+    .background {
+      background-image: url(asset_path('about/map.jpg'));
+      background-size: cover;
+    }
+  }
+
   .links {
     a {
      color: $cw-blue;

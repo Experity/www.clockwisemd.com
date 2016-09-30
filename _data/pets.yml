@@ -1,0 +1,104 @@
+- name: Asher
+  description: "Asher may be a good-natured pup, but he has some very strong food preferences. For example, he likes jalapeños, but hates grapefruit!"
+  best_friend: Meghan Crites
+  image: about/pets/asher.jpg
+
+- name: Black Beauty
+  description: "MISSING PET - Have you seen me?!?! | Some may consider \"Black Beauty\" to be the perfect pet. She doesn't eat much, never runs away, and weighs only 17 lbs!"
+  best_friend: Bill Taylor
+  image: about/pets/black-beauty.jpg
+
+- name: Blaze
+  description: "Blaze, as his owner Nick succinctly put it, is ready for anything... especially if that anything is related to food."
+  best_friend: Nick Fraunfelder
+  image: about/pets/blaze.jpg
+
+- name: Bobo
+  description: "Bobo is an excitable pup, but watch out! Anyone who pets him is cool in his book, so only go near him if you want a new best friend."
+  best_friend: Phong Si
+  image: about/pets/bobo.jpg
+
+- name: Callie
+  description: "Callie the cat enjoys a myriad of contradictory activities — sunbathing, cuddling, and biting, to name a few."
+  best_friend: Tricia Jefferson
+  image: about/pets/callie.jpg
+
+# - name: Carlos
+#   description: "Carlos is a jovial cacti! He loves to see his owner travel constantly, spend lots of time in the office, and neglect him emotionally and physically via dehydration. He also likes the sun!"
+#   best_friend: Ben Beidler
+#   image: about/pets/piglet.jpg
+
+- name: Daisy
+  description: "Daisy, according to her owner Phong, is a charmer and the life of the party. No matter what, she's got your back."
+  best_friend: Phillip Han
+  image: about/pets/daisy.jpg
+
+- name: Goh Mang and Aydin
+  description: "Despite similar appearances, it's easy to tell which cat is which: Goh Mang enjoys high-end furniture (boxes) while Aydin likes to stand uncomfortably close to the camera anytime a picture is being taken."
+  best_friend: Joe Dursun
+  image: about/pets/gohmang-aydin.jpg
+
+- name: Gopher
+  description: "Gopher, so named because he dreams about digging in his sleep, is the epitome of low-maintenance: he doesn't eat, has a silent bark, and never has to go outside."
+  best_friend: Dennis Holmes
+  image: about/pets/gopher.jpg
+
+- name: Keller
+  description: "Keller is the canine embodiment of the engineering spirit: living a life of steady calm interspersed with bursts of wild excitement. He loves nothing more than rolling on the floor, chasing rabbits, and sniffing everything in sight."
+  best_friend: Dan DeBruler
+  image: about/pets/keller.jpg
+
+- name: KJ and Cee-Lo
+  description: "Nothing is off limits to these brothers, KJ (left) and Cee-Lo (right). Not only do they enjoy climbing on furniture, belly rubs, and searching for morsels of dropped food - they also have a love-hate relationship with skateboards."
+  best_friend: Emily McIntosh
+  image: about/pets/kj-ceelo-1.jpg
+
+- name: Link
+  description: "Link is the marketing mascot. He enjoys (very) long walks, sniffing, peanut butter, and jumping. He also sidelines as an escape artist and puppy model multiple times a week."
+  best_friend: Jenna Hanington
+  image: about/pets/link.jpg
+
+- name: Mantis Shrimp
+  description: "Arden's dream pet (and spirit animal) is the mantis shrimp. Her reasoning? They are bright. They are dark. They are beautiful."
+  best_friend: Arden Davis
+  image: about/pets/shrimp.jpg
+
+- name: Orion
+  description: "Orion is a dapper pup who enjoys picnics, a crisp white whine (see what we did there?), and hanging out with his best friend Oswald."
+  best_friend: Imaad Rashied
+  image: about/pets/orion.jpg
+
+- name: Oswald
+  description: "Oswald, also known as Orion's partner in crime, can only be described as “festive.” His favorite holiday is Cinco de Mayo, and he loves nothing more than lapping up a big bowl of queso."
+  best_friend:  Imaad Rashied
+  image: about/pets/oswald.jpg
+
+- name: Pearl and Murphy
+  description: "Pearl (left) is super laid back, but she does have one achilles heel - she's afraid of balloons.  Murphy (right) is pretty sure that he's in charge, but no one else is."
+  best_friend: Mike Burke
+  image: about/pets/pearl-murphy.jpg
+
+- name: Sadie
+  description: "Sadie is a bit of a princess, according to her owner Chris. Nothing makes her more vocal than having her fur brushed, which typically results in a dramatic performance worthy of Shakespeare."
+  best_friend: Christienne Kendall
+  image: about/pets/sadie.jpg
+
+- name: Sanford
+  description: "Sanford wants to be everyone's best friend! He enjoys barking, long hikes, and chewing on anything he can get his paws on, especially if it's not actually meant to be chewed."
+  best_friend: Ansley Casey
+  image: about/pets/sanford.jpg
+
+- name: Slackbotbot
+  description: "Slackbotbot likes roaming around the office and cleaning up after the dev team. He's a quiet bot for the most part, but rumor has it he'll be a lot more vocal in the near future."
+  best_friend: Andrew Schuster
+  image: about/pets/slackbot.jpg
+
+- name: Smokey and Tera
+  description: "These two adopted siblings are two sisters separated by their love of the outdoors. Tera (lounging on the floor) is the youngest and enjoys hunting outdoors, while Smokey (giving us the evil eye) is the oldest and enjoys relaxing on the couch."
+  best_friend: David Sommers
+  image: about/pets/smokey-tera.jpg
+
+- name: Teacup pig
+  description: "Megan's dream pet is a teacup pig who thinks he is a dog. He'll do all the tricks in the book, but won't get spoiled with bacon-flavored treats (okay, maybe sometimes…)."
+  best_friend: Megan Larsh
+  image: about/pets/piglet.jpg

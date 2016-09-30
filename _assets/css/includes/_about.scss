@@ -1,12 +1,38 @@
 #about {
   #about-team {
-    padding-top: 80px;
+    min-height: 600px;
+    .background {
+      background-image: url(asset_path('about/team-photo@1x.jpg'));
+      background-size: cover;
+    }
+  }
+  #about-description {
+    padding-top: 40px;
+  }
+  #about-pets {
+    padding-top: 0;
     h2 {
       font-size: 40px;
       margin-bottom: 30px;
     }
     .members {
       margin-top: 40px;
+      .member-wrapper {
+        vertical-align: top;
+        .member .info .name {
+          color: $cw-blue;
+        }
+        .member .photo-wrapper {
+          width: 265px;
+          height: 175px;
+        }
+        .member:hover .photo-wrapper {
+          background-color: $cw-blue;
+        }
+        .member .photo-wrapper .photo {
+          opacity: 1;
+        }
+      }
     }
   }
 }

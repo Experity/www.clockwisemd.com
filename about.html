@@ -5,7 +5,7 @@ permalink: /about/
 id: about
 ---
 
-<section id="clockwise-map" class="header-11-sub">
+<section id="about-team" class="header-11-sub">
   <div class="background">&nbsp;</div>
 </section>
 
@@ -21,10 +21,6 @@ id: about
       primary and specialty care clinics, radiology labs, and more to help boost patient
       satisfaction, manage online reputations, and improve patient retention.
     </p>
-
-<!--
-<section id="about-team" class="crew-4">
-  <div class="container">
     <p>
       Want to learn more about the people behind the product? We have a team of passionate,
       creative-minded individuals who are devoted to helping our customers help their customers.
@@ -33,76 +29,40 @@ id: about
     <p>
       Get to know some of our office regulars (and some of our employees’ dream pets) below.
     </p>
+  </div>
+</section>
+
+<section id="about-pets" class="crew-4">
+  <div class="container">
+    {% for pet in site.data.pets %}
+    {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+    {% if modulo == '0' or forloop.first %}
     <div class="members">
+    {% endif %}
       <div class="member-wrapper">
         <div class="member">
           <div class="photo-wrapper">
             <div class="photo">
-              <img src="../../common-files/img/crew/vladimir-k.png" alt="">
-            </div>
-            <div class="overlay">
-              <a href="#"><span class="fui-vimeo"></span></a>
-              <a href="#"><span class="fui-facebook"></span></a>
-              <a href="#"><span class="fui-twitter"></span></a>
+              {% img '{{ pet.image }}' width:265 height:175 %}
             </div>
           </div>
           <div class="info">
-            <div class="name">Vladimir Kudinov</div>
-            <b>Designer</b> who makes easy to change and easy to create new elements.
+            <div class="name">{{ pet.name }}</div>
+            {{ pet.description }}
             <div class="contacts">
-              <a href="#">http://vladimirkudinov.com</a>
-              <br>
-              <a href="#">@stSilent</a>
+              Best Friend: {{ pet.best_friend }}
             </div>
           </div>
         </div>
       </div>
+    {% if modulo == '2' or forloop.last %}
+      {% if modulo == '1' %}
       <div class="member-wrapper">
-        <div class="member">
-          <div class="photo-wrapper">
-            <div class="photo">
-              <img src="../../common-files/img/crew/sergey-s.png" alt="">
-            </div>
-            <div class="overlay">
-              <a href="#"><span class="fui-vimeo"></span></a>
-              <a href="#"><span class="fui-facebook"></span></a>
-              <a href="#"><span class="fui-twitter"></span></a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="name">Sergey Shmidt</div>
-            <b>Designer</b> who makes easy to change and easy to create new elements.
-            <div class="contacts">
-              <a href="#">http://vladimirkudinov.com</a>
-              <br>
-              <a href="#">@stSilent</a>
-            </div>
-          </div>
-        </div>
+        <div class="member"></div>
       </div>
-      <div class="member-wrapper">
-        <div class="member">
-          <div class="photo-wrapper">
-            <div class="photo">
-              <img src="../../common-files/img/crew/adrian-v.png" alt="">
-            </div>
-            <div class="overlay">
-              <a href="#"><span class="fui-vimeo"></span></a>
-              <a href="#"><span class="fui-facebook"></span></a>
-              <a href="#"><span class="fui-twitter"></span></a>
-            </div>
-          </div>
-          <div class="info">
-            <div class="name">Adrian Valeanu</div>
-            <b>Designer</b> who makes easy to change and easy to create new elements.
-            <div class="contacts">
-              <a href="#">http://vladimirkudinov.com</a>
-              <br>
-              <a href="#">@stSilent</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
   </div>
 </section>
