@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Survey - Clockwise.MD
+title: Retain Patients. Increase Online Reviews | Clockwise.MD Survey
+excerpt: Increase patient retention and improve your online reputation with patient satisfaction surveys by Clockwise.MD.
 permalink: /products/survey/
 id: survey
 ---
@@ -110,66 +111,5 @@ id: survey
   </div>
 </section>
 
-<section id="survey-quotes" class="content-18 quotes">
-  <div class="background">&nbsp;</div>
-  <div class="container">
-    <div id="c-18_myCarousel" class="carousel slide" data-interval="600000">
-      <div class="controls">
-        <a class="carousel-control left disabled" href="#" data-slide="prev"></a>
-        <a class="carousel-control right" href="#c-18_myCarousel" data-slide="next"></a>
-      </div>
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="quote-text">
-            Our patients at Wake Forest Baptist Health Urgent Care have been thrilled with the
-            option to wait at home rather than in our waiting room to be seen by a provider. The
-            ability for them to make online reservations through our website program has been a
-            real satisfier and we have seen that objectively through our patient satisfaction scores.
-          </div>
-          <div class="quote-author">James Guerrini MD, Medical Director at Wake Forest Baptist Health Urgent Care in Clemmons, NC</div>
-        </div>
-        <div class="item">
-          <div class="quote-text">
-            We were able to integrate online check-in into our workflow with minimal effort and
-            now our patients can not only see how long their wait time will be but they can sign
-            in to the queue online and essentially avoid the waiting room altogether. We now have
-            effective tools for managing expectations and give patients the information they desire.
-          </div>
-          <div class="quote-author">Garrett Bomba MD, Medical Director at Pentucket Medical ExpressCare in Lawrence, MA</div>
-        </div>
-        <div class="item">
-          <div class="quote-text">
-            Allowing patients to wait in the comfort of their home or office and receive automated
-            text messages has improved overall client satisfaction. An added benefit we did not
-            anticipate is how online scheduling has improved employee morale... instead of patients
-            all walking in at the same time they make appointments online which allows us to manage
-            our wait times.
-          </div>
-          <div class="quote-author">Kirsten Saint Clair, Director of Business Development at Immediate Clinic in Seattle, WA</div>
-        </div>
-        <div class="item">
-          <div class="quote-text">
-            It's gotten to the point where [Clockwise] is a necessity for our department to function.
-          </div>
-          <div class="quote-author">Johnathan Leal, Nurse Manager at Kaweah Delta Urgent Care</div>
-        </div>
-        <div class="item">
-          <div class="quote-text">
-            Clockwise has revolutionized the way we conduct business in our clinics. It is simple,
-            efficient, and easy to use. It has increased our efficiency and taken our customer
-            service to a new level.
-          </div>
-          <div class="quote-author">Nate Haines, Vice President at MedAccess Urgent Care</div>
-        </div>
-        <div class="item">
-          <div class="quote-text">
-            I cant say enough about the survey functionality of clockwise and its part in our
-            clinics' success. The text message survey allows us to respond in real time to patients
-            to understand and ease the concerns of those who have had a less than stellar experience.
-          </div>
-          <div class="quote-author">Garrett Bomba MD, Medical Director at Pentucket Medical ExpressCare in Lawrence, MA</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% assign quotes = site.data.quotes | where:"tags", "survey" | shuffle %}
+{% include quotes.html %}

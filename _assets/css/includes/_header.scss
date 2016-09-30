@@ -2,4 +2,9 @@
   .navbar-collapse a {
     text-transform: uppercase;
   }
+  .navbar .nav > li > a:hover,
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a.active {
+    color: $cw-blue;
+  }
 }

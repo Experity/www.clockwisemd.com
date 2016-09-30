@@ -4,7 +4,7 @@
   }
 
   section.bg-header {
-    min-height: 900px;
+    min-height: 750px;
     .background {
       background-size: cover;
     }
@@ -28,9 +28,17 @@
     p {
       font-size: 18px;
     }
-    .row {
-      margin-bottom: 80px;
+
+    .row.first, .row:first-child, .row:first-of-type {
+      padding-top: 0;
+      border-top: 0;
     }
+    .row {
+      padding-top: 60px;
+      border-top: 2px solid #ecf0f1;
+      margin-bottom: 60px;
+    }
+
     .features {
       ul {
         padding-left: 20px;
@@ -40,26 +48,12 @@
         line-height: 28px;
       }
     }
+
     .carousel {
       margin-top: 200px;
     }
     .carousel-indicators {
       width: auto;
-    }
-  }
-
-  section.cta {
-    background-color: $cw-blue;
-    color: white;
-    a {
-      text-transform: uppercase;
-    }
-  }
-
-  section.quotes {
-    .quote-author {
-      color: #2c3e50;
-      line-height: 30px;
     }
   }
 }

@@ -1,0 +1,26 @@
+<section id="quotes" class="content-18 quotes">
+  <div class="background">&nbsp;</div>
+  <div class="container">
+    <div id="c-18_myCarousel" class="carousel slide" data-interval="600000">
+      <div class="controls">
+        <a class="carousel-control left disabled" href="#" data-slide="prev"></a>
+        <a class="carousel-control right" href="#c-18_myCarousel" data-slide="next"></a>
+      </div>
+      <div class="carousel-inner">
+        {% for quote in quotes %}
+        {% assign loopindex = forloop.index %}
+        {% if loopindex == 1 %}
+        <div class="item active">
+        {% else %}
+        <div class="item">
+        {% endif %}
+          <div class="quote-text">
+            {{ quote.text }}
+          </div>
+          <div class="quote-author">{{ quote.author }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

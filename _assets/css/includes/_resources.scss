@@ -1,26 +1,14 @@
 #cases, #papers, #events, #news {
-  .btn-primary {
-    background-color: $cw-green;
-  }
-
-  section.bg-header {
-    min-height: 600px;
-    .background {
-      background-size: cover;
-    }
-  }
-
-  section.description {
-    padding-top: 80px;
-    padding-bottom: 0;
-    h4 {
-      margin-bottom: 30px;
-    }
-  }
+  @import 'common_content';
 
   section.list-of-cards, section.list-of-things {
+    margin: 0 0 60px 0;
+    border-top: 2px solid #ecf0f1;
     a {
       color: $cw-blue;
+    }
+    .member:hover .photo-wrapper {
+      background-color: $cw-blue;
     }
   }
 }
@@ -51,21 +39,6 @@
       }
     }
   }
-
-  section.cta {
-    background-color: $cw-blue;
-    color: white;
-    a {
-      text-transform: uppercase;
-    }
-  }
-
-  section.quotes {
-    .quote-author {
-      color: #2c3e50;
-      line-height: 30px;
-    }
-  }
 }
 
 #events, #news {
@@ -73,7 +46,7 @@
     padding-top: 0;
     padding-bottom: 110px;
     .thing {
-      padding-top: 60px;
+      padding-top: 40px;
       p {
         margin: 15px 0;
       }

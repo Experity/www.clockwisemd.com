@@ -1,0 +1,43 @@
+- author: James Guerrini MD, Medical Director at Wake Forest Baptist Health Urgent Care in Clemmons, NC
+  text: >
+    Our patients at Wake Forest Baptist Health Urgent Care have been thrilled with the
+    option to wait at home rather than in our waiting room to be seen by a provider. The
+    ability for them to make online reservations through our website program has been a
+    real satisfier and we have seen that objectively through our patient satisfaction scores.
+  tags: queue
+
+- author: Garrett Bomba MD, Medical Director at Pentucket Medical ExpressCare in Lawrence, MA
+  text: >
+    We were able to integrate online check-in into our workflow with minimal effort and
+    now our patients can not only see how long their wait time will be but they can sign
+    in to the queue online and essentially avoid the waiting room altogether. We now have
+    effective tools for managing expectations and give patients the information they desire.
+  tags: queue
+
+- author: Garrett Bomba MD, Medical Director at Pentucket Medical ExpressCare in Lawrence, MA
+  text: >
+    I cant say enough about the survey functionality of clockwise and its part in our
+    clinics' success. The text message survey allows us to respond in real time to patients
+    to understand and ease the concerns of those who have had a less than stellar experience.
+  tags: survey
+
+- author: Kirsten Saint Clair, Director of Business Development at Immediate Clinic in Seattle, WA
+  text: >
+    Allowing patients to wait in the comfort of their home or office and receive automated
+    text messages has improved overall client satisfaction. An added benefit we did not
+    anticipate is how online scheduling has improved employee morale... instead of patients
+    all walking in at the same time they make appointments online which allows us to manage
+    our wait times.
+  tags: queue
+
+- author: Johnathan Leal, Nurse Manager at Kaweah Delta Urgent Care
+  text: >
+    It's gotten to the point where [Clockwise] is a necessity for our department to function.
+  tags: [queue, survey]
+
+- author: Nate Haines, Vice President at MedAccess Urgent Care
+  text: >
+    Clockwise has revolutionized the way we conduct business in our clinics. It is simple,
+    efficient, and easy to use. It has increased our efficiency and taken our customer
+    service to a new level.
+  tags: [queue, survey]
