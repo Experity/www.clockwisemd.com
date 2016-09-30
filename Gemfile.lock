@@ -8,12 +8,12 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    aws-sdk (2.6.3)
-      aws-sdk-resources (= 2.6.3)
-    aws-sdk-core (2.6.3)
+    aws-sdk (2.6.5)
+      aws-sdk-resources (= 2.6.5)
+    aws-sdk-core (2.6.5)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.3)
-      aws-sdk-core (= 2.6.3)
+    aws-sdk-resources (2.6.5)
+      aws-sdk-core (= 2.6.5)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -181,4 +181,4 @@ DEPENDENCIES
   therubyracer
 
 BUNDLED WITH
-   1.11.2
+   1.13.1
