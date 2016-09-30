@@ -1,0 +1,9 @@
+test:
+  override:
+    - jekyll build
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - s3_website push
