@@ -14,6 +14,86 @@
     padding-bottom: 0;
   }
 
+  .content-4 .features > [class*="col-sm-"] {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .sprite {
+    margin: 40px auto;
+  }
+
+  .sprite-clock {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat 0 0;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-check {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat 0 -118px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 102px;
+    margin-top: 53px;
+  }
+
+  .sprite-rocket {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat 0 -223px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-roi {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -119px 0;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-patient {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -119px -118px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-tools {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -119px -235px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-hospital {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -239px -1px;
+    background-size: 358px 475px;
+    width: 113px;
+    height: 113px;
+  }
+
+  .sprite-heartbeat {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -237px -117px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-stethoscope {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -237px -235px;
+    background-size: 358px 475px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .sprite-labs {
+    background: url(asset_path('index/sprite@2x.png')) no-repeat -237px -354px;
+    background-size: 358px 475px;
+    width: 114px;
+    height: 114px;
+  }
+
   #index-header {
     .background {
       background-image: none;

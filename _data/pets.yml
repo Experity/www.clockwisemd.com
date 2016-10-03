@@ -4,7 +4,7 @@
   image: about/pets/asher.jpg
 
 - name: Black Beauty
-  description: "MISSING PET - Have you seen me?!?! | Some may consider \"Black Beauty\" to be the perfect pet. She doesn't eat much, never runs away, and weighs only 17 lbs!"
+  description: "MISSING PET - Have you seen me?!?! Some may consider \"Black Beauty\" to be the perfect pet. She doesn't eat much, never runs away, and weighs only 17 lbs!"
   best_friend: Bill Taylor
   image: about/pets/black-beauty.jpg
 
@@ -94,7 +94,7 @@
   image: about/pets/slackbot.jpg
 
 - name: Smokey and Tera
-  description: "These two adopted siblings are two sisters separated by their love of the outdoors. Tera (lounging on the floor) is the youngest and enjoys hunting outdoors, while Smokey (giving us the evil eye) is the oldest and enjoys relaxing on the couch."
+  description: "Tera (lounging on the floor) is the youngest and enjoys hunting outdoors and bringing her new friends indoors, while Smokey (giving us the evil eye) is the oldest and enjoys following her human pets around the house like a dog."
   best_friend: David Sommers
   image: about/pets/smokey-tera.jpg
 
