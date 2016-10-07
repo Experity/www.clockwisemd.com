@@ -42,6 +42,7 @@ gems:
   - jekyll-assets
 
 exclude:
+  - vendor
   - README.md
   - .gitignore
 
