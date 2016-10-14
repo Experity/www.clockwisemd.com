@@ -1,4 +1,4 @@
-#queue, #survey {
+#queue, #survey, #paging {
   .btn-primary {
     background-color: $cw-green;
   }
@@ -70,6 +70,14 @@
   #survey-header {
     .background {
       background-image: url(asset_path('products/survey/background.jpg'));
+    }
+  }
+}
+
+#paging {
+  #paging-header {
+    .background {
+      background-image: url(asset_path('products/patient_paging/background.jpg'));
     }
   }
 }
