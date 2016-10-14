@@ -23,10 +23,15 @@
   best_friend: Tricia Jefferson
   image: about/pets/callie.jpg
 
-# - name: Carlos
-#   description: "Carlos is a jovial cacti! He loves to see his owner travel constantly, spend lots of time in the office, and neglect him emotionally and physically via dehydration. He also likes the sun!"
-#   best_friend: Ben Beidler
-#   image: about/pets/piglet.jpg
+- name: Carlos
+  description: "Carlos is a jovial cacti! He loves to see his owner travel constantly, spend lots of time in the office, and neglect him emotionally and physically via dehydration. He also likes the sun!"
+  best_friend: Ben Beidler
+  image: about/pets/carlos.jpg
+
+- name: Charles Barkley (Charlie)
+  description: "Charles Barkley, affectionately known as Charlie, has such a rambunctious spirit that he has yet to make an appearance in the office. The rest of the crew can't wait to meet him! "
+  best_friend: Cara Creger
+  image: about/pets/charlie.jpg
 
 - name: Daisy
   description: "Daisy, according to her owner Phong, is a charmer and the life of the party. No matter what, she's got your back."
@@ -102,3 +107,8 @@
   description: "Megan's dream pet is a teacup pig who thinks he is a dog. He'll do all the tricks in the book, but won't get spoiled with bacon-flavored treats (okay, maybe sometimes…)."
   best_friend: Megan Larsh
   image: about/pets/piglet.jpg
+
+- name: Ted
+  description: "Pearl and Murphy may have some competition with office newcomer Ted Pillsbury. Though Ted has only known CEO Mike Burke for a few months, they're already inseparable. "
+  best_friend: Sarah Pillsbury / Mike Burke
+  image: about/pets/ted.jpg
