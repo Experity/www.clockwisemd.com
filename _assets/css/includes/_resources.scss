@@ -1,4 +1,4 @@
-#cases, #papers, #events, #news {
+#resources, #cases, #papers, #events, #news {
   @import 'common_content';
 
   section.list-of-cards, section.list-of-things {
@@ -53,6 +53,35 @@
       .link {
         text-transform: uppercase;
       }
+    }
+  }
+}
+
+#resources {
+  #resources-header {
+    .background {
+      background-image: url(asset_path('resources/cases/background.jpg'));
+    }
+  }
+
+  #resources-features {
+    p {
+      font-size: 18px;
+    }
+
+    .row.first, .row:first-child, .row:first-of-type {
+      padding-top: 0;
+      border-top: 0;
+    }
+    .row {
+      padding-top: 20px;
+      border-top: 2px solid #ecf0f1;
+      margin-bottom: 50px;
+    }
+
+    a.learn-more {
+      text-transform: uppercase;
+      color: $cw-blue;
     }
   }
 }

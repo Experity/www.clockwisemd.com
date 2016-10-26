@@ -1,0 +1,102 @@
+---
+layout: default
+title: Clockwise.MD Healthcare Resource Library
+excerpt: Access Clockwise.MD's library of healthcare resources for case studies, white papers, news, events, and more.
+permalink: /resources/
+id: resources
+---
+
+<section id="resources-header" class="header-11-sub bg-header">
+  <div class="background">&nbsp;</div>
+</section>
+
+<section id="resources-features" class="content-10 feature-list">
+  <div class="container">
+    <div class="row">
+      <h3>Clockwise.MD Resource Library</h3>
+      <p>
+        Looking for the latest Clockwise.MD news and resources? We have a growing library of case
+        studies, press releases, white papers, and more to help you stay up to date on healthcare
+        industry best practices and Clockwise happenings. If you're more interested in catching
+        up with our team in person, you can review our list of upcoming events to see when we'll
+        be in an area near you.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="features">
+          <div class="box">
+            {% img 'resources/icon-case-studies@2x.png' width:100 %}
+            <h6>Case Studies</h6>
+            <p>
+              Learn how Clockwise.MD customers are taking advantage of online scheduling, wait
+              time management, patient surveys, and more to increase online appointments and
+              improve patient satisfaction.
+            </p>
+            <a href='/resources/case-studies/' class='learn-more'>view case studies &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="features">
+          <div class="box">
+            {% img 'resources/icon-news@2x.png' width:100 %}
+            <h6>News and Press Releases</h6>
+            <p>
+              Stay up to date on the latest Clockwise.MD news. Get access to press releases,
+              industry articles, customer news, and more.
+            </p>
+            <a href='/resources/news/' class='learn-more'>read more &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="features">
+          <div class="box">
+            {% img 'resources/icon-white-papers@2x.png' width:100 %}
+            <h6>White Papers</h6>
+            <p>
+              Read up on industry best practices in our collection of research-backed white papers.
+              Learn more about wait time management, the psychology behind waiting, healthcare
+              marketing, and more.
+            </p>
+            <a href='/resources/white-papers/' class='learn-more'>view white papers &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="features">
+          <div class="box">
+            {% img 'resources/icon-events@2x.png' width:100 %}
+            <h6>Events</h6>
+            <p>
+              Visit Clockwise.MD at any number of events in your area. Take a look at our full
+              event schedule to see where we'll be and when.
+            </p>
+            <a href='/resources/events/' class='learn-more'>view the calendar &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resources-case-study-cta" class="content-11 cta">
+  <div class="container">
+    <span>Don't just attract patients — retain them. Learn how Clockwise.MD can help.</span>
+    <a class="btn btn-large btn-primary" href="http://go.clockwisemd.com/demo-request">Get a Demo</a>
+  </div>
+</section>
+
+{% assign quotes = site.data.quotes | shuffle %}
+{% include quotes.html %}

@@ -1,5 +1,9 @@
-#er, #lab, #sc, #uc {
+#markets, #er, #lab, #sc, #uc {
   @import 'common_content';
+
+  .description a, .benefits a {
+    color: $cw-blue;
+  }
 
   section.feature-list {
     padding: 0 0 60px 0;
@@ -43,8 +47,33 @@
     .actions {
       margin-top: 120px;
     }
+    .actions a {
+      color: white;
+    }
+  }
+}
+
+#markets {
+  #markets-header {
+    .background {
+      background-image: url(asset_path('markets/background.jpg'));
+    }
+  }
+
+  #markets-description {
     a {
+      color: $cw-blue;
+    }
+  }
+
+  #markets-benefits {
+    padding-bottom: 120px;
+    .features a.learn-more {
+      display: block;
+      padding-top: .5em;
+      font-size: 1.25em;
       text-transform: uppercase;
+      color: $cw-blue;
     }
   }
 }
