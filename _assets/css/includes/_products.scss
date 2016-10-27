@@ -4,7 +4,6 @@
   }
 
   section.bg-header {
-    min-height: 750px;
     .background {
       background-size: cover;
     }
@@ -62,6 +61,10 @@
 }
 
 #products {
+  section.bg-header {
+    min-height: 400px;
+  }
+
   #products-header {
     .background {
       background-image: url(asset_path('products/background.jpg'));
@@ -76,6 +79,12 @@
       text-transform: uppercase;
       color: $cw-blue;
     }
+  }
+}
+
+#queue, #survey, #paging {
+  section.bg-header {
+    min-height: 750px;
   }
 }
 
