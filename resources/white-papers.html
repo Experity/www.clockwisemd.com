@@ -26,8 +26,11 @@ id: papers
 
 <section id="papers-list" class="crew-4 list-of-cards">
   <div class="container">
+    {% for thing in site.data.papers %}
+    {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+    {% if modulo == '0' or forloop.first %}
     <div class="members">
-      {% for thing in site.data.papers %}
+    {% endif %}
       <div class="member-wrapper">
         <div class="member">
           <div class="photo-wrapper">
@@ -47,8 +50,15 @@ id: papers
           </div>
         </div>
       </div>
-      {% endfor %}
+    {% if modulo == '2' or forloop.last %}
+      {% if modulo == '1' %}
+      <div class="member-wrapper">
+        <div class="member"></div>
+      </div>
+      {% endif %}
     </div>
+    {% endif %}
+    {% endfor %}
   </div>
 </section>
 
