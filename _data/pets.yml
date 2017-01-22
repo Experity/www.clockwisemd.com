@@ -4,7 +4,7 @@
   image: about/pets/asher.jpg
 
 - name: Black Beauty
-  description: "MISSING PET - Have you seen me?!?! Some may consider \"Black Beauty\" to be the perfect pet. She doesn't eat much, never runs away, and weighs only 17 lbs!"
+  description: "Some may consider \"Black Beauty\" to be the perfect pet. She doesn't eat much, never runs away, and weighs only 17 lbs!"
   best_friend: Bill Taylor
   image: about/pets/black-beauty.jpg
 
@@ -12,6 +12,16 @@
   description: "Blaze, as his owner Nick succinctly put it, is ready for anything... especially if that anything is related to food."
   best_friend: Nick Fraunfelder
   image: about/pets/blaze.jpg
+
+- name: Blinky
+  description: "Feeling nostalgic? While a relatively new addition to the office, Blinky has been around for almost 40 years. He may not be the best for office productivity, he does encourage a little healthy competition."
+  best_friend: Mark Wagner
+  image: about/pets/blinky.jpg
+
+- name: Blue
+  description: "Blue (named after the cheese) is a shy, yet curious, pup. It takes some patience to break through his timid shell, but once you're in, he will love you forever. He enjoys swimming, eating carrots, and barking."
+  best_friend: Emily Fultz
+  image: about/pets/blue.jpg
 
 - name: Bobo
   description: "Bobo is an excitable pup, but watch out! Anyone who pets him is cool in his book, so only go near him if you want a new best friend."
@@ -29,7 +39,7 @@
   image: about/pets/carlos.jpg
 
 - name: Charles Barkley (Charlie)
-  description: "Charles Barkley, affectionately known as Charlie, has such a rambunctious spirit that he has yet to make an appearance in the office. The rest of the crew can't wait to meet him! "
+  description: "Charles Barkley, affectionately known as Charlie, has such a rambunctious spirit that he has yet to make an appearance in the office. The rest of the crew can't wait to meet him!"
   best_friend: Cara Creger
   image: about/pets/charlie.jpg
 
@@ -67,6 +77,11 @@
   description: "Arden's dream pet (and spirit animal) is the mantis shrimp. Her reasoning? They are bright. They are dark. They are beautiful."
   best_friend: Arden Davis
   image: about/pets/shrimp.jpg
+
+- name: Mcruff
+  description: "Michael's dream dog is a dog who just likes to lounge around the house, eat food and not annoy him, but will still be their for him when he needs it. If you know of a dog, help a brother out by finding a dog that has a pet status level of chill."
+  best_friend: Michael Mercer
+  image: about/pets/mcruff.jpg
 
 - name: Orion
   description: "Orion is a dapper pup who enjoys picnics, a crisp white whine (see what we did there?), and hanging out with his best friend Oswald."
