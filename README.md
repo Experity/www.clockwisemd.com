@@ -1,4 +1,4 @@
-# Clockwise.MD
+# Clockwise.MD  [![CircleCI](https://circleci.com/gh/LightshedHealth/www.clockwisemd.com.svg?style=svg)](https://circleci.com/gh/LightshedHealth/www.clockwisemd.com)
 
 Web site for Clockwise.MD
 
