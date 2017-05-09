@@ -17,3 +17,8 @@
   description: Learn why health systems across the U.S. are adopting wait time management technologies in their emergency departments.
   image: resources/papers/emergency-department@2x.png
   link: http://go.clockwisemd.com/emergency-department-white-paper
+  
+- title: The Clockwise.MD Reporting Guide
+  description: Get a behind-the-scenes look at Clockwise.MD reporting functionality, including example reports and best practices.
+  image: resources/papers/reportingguide@2x.png
+  link: http://go.clockwisemd.com/complete-reporting-guide
