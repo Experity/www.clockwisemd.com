@@ -32,7 +32,7 @@ sass:
   sass_dir: _assets
   style: :compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-mentions
   - jemoji
