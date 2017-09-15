@@ -8,20 +8,10 @@
   best_friend: Bill Taylor
   image: about/pets/black-beauty.jpg
 
-- name: Blaze
-  description: "Blaze, as his owner Nick succinctly put it, is ready for anything... especially if that anything is related to food."
-  best_friend: Nick Fraunfelder
-  image: about/pets/blaze.jpg
-
 - name: Blinky
   description: "Feeling nostalgic? While a relatively new addition to the office, Blinky has been around for almost 40 years. He may not be the best for office productivity, he does encourage a little healthy competition."
   best_friend: Mark Wagner
   image: about/pets/blinky.jpg
-
-- name: Blue
-  description: "Blue (named after the cheese) is a shy, yet curious, pup. It takes some patience to break through his timid shell, but once you're in, he will love you forever. He enjoys swimming, eating carrots, and barking."
-  best_friend: Emily Fultz
-  image: about/pets/blue.jpg
 
 - name: Bobo
   description: "Bobo is an excitable pup, but watch out! Anyone who pets him is cool in his book, so only go near him if you want a new best friend."
@@ -33,20 +23,10 @@
   best_friend: Tricia Jefferson
   image: about/pets/callie.jpg
 
-- name: Carlos
-  description: "Carlos is a jovial cacti! He loves to see his owner travel constantly, spend lots of time in the office, and neglect him emotionally and physically via dehydration. He also likes the sun!"
-  best_friend: Ben Beidler
-  image: about/pets/carlos.jpg
-
 - name: Charles Barkley (Charlie)
   description: "Charles Barkley, affectionately known as Charlie, has such a rambunctious spirit that he has yet to make an appearance in the office. The rest of the crew can't wait to meet him!"
   best_friend: Cara Creger
   image: about/pets/charlie.jpg
-
-- name: Daisy
-  description: "Daisy, according to her owner Phong, is a charmer and the life of the party. No matter what, she's got your back."
-  best_friend: Phillip Han
-  image: about/pets/daisy.jpg
 
 - name: Goh Mang and Aydin
   description: "Despite similar appearances, it's easy to tell which cat is which: Goh Mang enjoys high-end furniture (boxes) while Aydin likes to stand uncomfortably close to the camera anytime a picture is being taken."
@@ -62,11 +42,6 @@
   description: "Keller is the canine embodiment of the engineering spirit: living a life of steady calm interspersed with bursts of wild excitement. He loves nothing more than rolling on the floor, chasing rabbits, and sniffing everything in sight."
   best_friend: Dan DeBruler
   image: about/pets/keller.jpg
-
-- name: KJ and Cee-Lo
-  description: "Nothing is off limits to these brothers, KJ (left) and Cee-Lo (right). Not only do they enjoy climbing on furniture, belly rubs, and searching for morsels of dropped food - they also have a love-hate relationship with skateboards."
-  best_friend: Emily McIntosh
-  image: about/pets/kj-ceelo-1.jpg
 
 - name: Link
   description: "Link is the marketing mascot. He enjoys (very) long walks, sniffing, peanut butter, and jumping. He also sidelines as an escape artist and puppy model multiple times a week."
@@ -97,11 +72,6 @@
   description: "Pearl (left) is super laid back, but she does have one achilles heel - she's afraid of balloons.  Murphy (right) is pretty sure that he's in charge, but no one else is."
   best_friend: Mike Burke
   image: about/pets/pearl-murphy.jpg
-
-- name: Sadie
-  description: "Sadie is a bit of a princess, according to her owner Chris. Nothing makes her more vocal than having her fur brushed, which typically results in a dramatic performance worthy of Shakespeare."
-  best_friend: Christienne Kendall
-  image: about/pets/sadie.jpg
 
 - name: Sanford
   description: "Sanford wants to be everyone's best friend! He enjoys barking, long hikes, and chewing on anything he can get his paws on, especially if it's not actually meant to be chewed."
