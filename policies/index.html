@@ -1367,19 +1367,17 @@
       </ol>
       <h2 id="7-8-employee-workstation-use">7.8 Employee Workstation Use</h2>
       <p>All workstations at Clockwise.MD are company owned, and all are laptop Apple products running Mac OSX or
-        Linux.
+        Windows.
       </p>
       <ol>
         <li>Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s
-          policies.
-        </li>
+          policies.</li>
         <li>Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory
           or harassing nature or materials that are obscene or “X-rated”. Harassment of any kind is prohibited.
           No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion,
           national origin, physical attributes, sexual preference, or health condition shall be transmitted or
           maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization’s
-          system.
-        </li>
+          system.</li>
         <li>Information systems/applications also may not be used for any other purpose that is illegal, unethical,
           or against company policies or contrary to organization’s best interests. Messages containing information
           related to a lawsuit or investigation may not be sent without prior approval.</li>
@@ -1388,8 +1386,7 @@
         <li>Transmitted messages may not contain material that criticizes the organization, its providers, its employees,
           or others.</li>
         <li>Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored
-          messages.
-        </li>
+          messages.</li>
         <li>Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.</li>
         <li>All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.</li>
         <!--
@@ -1504,7 +1501,7 @@
             <li>All production access to systems is performed through a bastion/jump host accessed through a secure tunnel.
               Direct access to production systems is disallowed by Clockwise.MD’s network configuration.</li>
             <li>Configuration settings for enforcing these technical controls are managed by Clockwise.MD’s configuration
-              management tooling, Chef.</li>
+              management tooling, Chef and Terraform.</li>
           </ul>
         </li>
       </ol>
@@ -1980,15 +1977,17 @@
       <ol>
         <li>Clockwise.MD uses automated tooling to ensure systems are up-to-date with the latest security patches.</li>
         <li>
-          On Linux systems, the unattended-upgrades tool is used to apply security patches in phases.
+          On Linux systems, the security patches are applied in phases.
           <ul>
-            <li>Patches are continually applied during a 24-hour rotating period as machines are added and removed
-              automatically throughout the day based on load.</li>
-            <li>A unique portion of the 24/7 servers are patched at night on a 7 day rotation.</li>
+            <li>Patches are applied for new instances throughout the day.</li>
+            <li>Timed or load-based instances added to the network will have patches applied upon boot.</li>
+            <li>Staging servers running 24/7 are patched at night every night for staging to test patches.</li>
+            <li>Production servers running 24/7 are patched weekly based on clean patches to staging.</li>
             <li>Patches for critical kernel security vulnerabilities may be applied to production systems using hot-patching
               tools at the discretion of the Security Officer. This process may be expedited for severe vulnerabilities.</li>
           </ul>
         </li>
+        <li>On Mac systems, the group management policies configure and implement the patching policy.</li>
         <li>On Windows systems, the baseline Group Policy setting configures Windows Update to implement the patching
           policy.</li>
       </ol>
@@ -3099,7 +3098,7 @@
         <li>All workforce members are granted access to formal organizational policies, which include the sanction
           policy for security violations.</li>
         <li>
-          The Clockwise.MD Employee Handbook clearly states the responsibilities and acceptable behavior regarding information
+          The DocuTAP Employee Handbook clearly states the responsibilities and acceptable behavior regarding information
           system usage, including rules for email, Internet, mobile devices, and social media usage.
           <ul>
             <li>Workforce members are required to sign an agreement stating that they have read and will abide by all
