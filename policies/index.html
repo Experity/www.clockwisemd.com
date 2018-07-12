@@ -1809,13 +1809,12 @@
         <li>All changes to production systems are tested before they are implemented in production.</li>
         <li>Implementation of approved changes are only performed by authorized personnel.</li>
         <li>
-          Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related
-          products and services, is hosted on GitHub.
+          Tooling to generate an up-to-date inventory of systems is hosted on GitHub.
           <ul>
             <li>All systems are categorized as production and utility to differentiate based on criticality.</li>
             <li>The Security Officer maintains scripts to generate inventory lists on demand using APIs provided by
               each cloud provider.</li>
-            <li>These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase
+            <li>These scripts are used to generate the asset lists required by the Risk Assessment phase
               of Clockwise.MD’s Risk Management procedures (<a href="https://www.clockwisemd.com/policies/#4.3-risk-management-procedures">§4.3.1</a>).</li>
             <li>After every use of these scripts, the Security Officer will verify their accuracy by reconciling their
               output with recent changes to production systems. The Security Officer will address any discrepancies
@@ -2979,6 +2978,15 @@
             <li>Hosts are scanned daily for malicious binaries in critical system paths.</li>
             <li>The malware signature database is checked hourly and automatically updated if new signatures are available.</li>
             <li>Logs of virus scans are maintained according to the requirements outlined in <a href="https://www.clockwisemd.com/policies/#8.6-audit-log-security-controls-and-backup">§8.6</a>.</li>
+            <li>If a virus or malware is detected:
+              <ul>
+                <li>Stop the instance immediately.</li>
+                <li>Snapshot the disk.</li>
+                <li>Delete the instance to prevent restarting.</li>
+                <li>Run the infrastructure scripts to recreate a new instance.</li>
+                <li>Start root cause analysis on the snapshot disk in an isolated, local environment</li>
+              </ul>
+            </li>
           </ul>
         </li>
         <li>All Production Systems are to only be used for Clockwise.MD business needs.</li>
