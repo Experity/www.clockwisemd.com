@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html class="no-js">
+{% include head.html %}
+<body{% if page.id %} id="{{ page.id }}"{% endif %}>
+{% include ideas-header.html %}
+{{ content }}
+</body>
+</html>
