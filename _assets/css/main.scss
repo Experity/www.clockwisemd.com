@@ -34,6 +34,7 @@ $cw-green:      #a2d163;
 // sections
 @import 'includes/header';
 @import 'includes/footer';
+@import 'includes/ideas_header';
 
 // pages
 @import 'includes/index';
@@ -42,3 +43,4 @@ $cw-green:      #a2d163;
 @import 'includes/markets';
 @import 'includes/products';
 @import 'includes/resources';
+@import 'includes/ideas';
