@@ -8,13 +8,13 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    aws-sdk (2.11.108)
-      aws-sdk-resources (= 2.11.108)
-    aws-sdk-core (2.11.108)
+    aws-sdk (2.11.110)
+      aws-sdk-resources (= 2.11.110)
+    aws-sdk-core (2.11.110)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.108)
-      aws-sdk-core (= 2.11.108)
+    aws-sdk-resources (2.11.110)
+      aws-sdk-core (= 2.11.110)
     aws-sigv4 (1.0.3)
     coffee-script (2.4.1)
       coffee-script-source
@@ -286,7 +286,6 @@ DEPENDENCIES
   github-pages (= 191)
   jekyll-assets
   jekyll-paginate
-  json
   s3_website
   therubyracer
 
