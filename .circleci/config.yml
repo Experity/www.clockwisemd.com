@@ -44,7 +44,7 @@ jobs:
         - v1-dep-{{ .Branch }}-{{ .Revision }}-
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 '
     - run: 'ls -R _site'
-    - run: 'ls _site/index.html && echo "index file exists"'
+    - run: 'ls _site/index.html && bundle exec s3_website push'
 
 workflows:
   version: 2
