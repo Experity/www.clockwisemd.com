@@ -26,12 +26,12 @@ jobs:
     - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
         --jobs=4 --retry=3 '
+    - run: bundle exec jekyll build
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ .Revision }}-{{ epoch }}
         paths:
         - vendor/bundle
         - _site
-    - run: bundle exec jekyll build
   deploy:
     <<: *defaults
     docker:
@@ -45,7 +45,7 @@ jobs:
     - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
         --jobs=4 --retry=3 '
-    - run: 'bundle exec s3_website push'
+    - run 'ls -R _site'
 
 workflows:
   version: 2
@@ -55,3 +55,7 @@ workflows:
       - deploy:
           requires:
             - test
+          filters:
+            branches:
+              only:
+                - master
