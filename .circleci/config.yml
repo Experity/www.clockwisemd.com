@@ -27,9 +27,10 @@ jobs:
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
         --jobs=4 --retry=3 '
     - save_cache:
-        key: v1-dep-{{ .Branch }}-{{ epoch }}
+        key: v1-dep-{{ .Branch }}-{{ .Revision }}-{{ epoch }}
         paths:
         - vendor/bundle
+        - _site
     - run: bundle exec jekyll build
   deploy:
     <<: *defaults
@@ -40,9 +41,7 @@ jobs:
     - checkout
     - restore_cache:
         keys:
-        - v1-dep-{{ .Branch }}-
-        - v1-dep-master-
-        - v1-dep-
+        - v1-dep-{{ .Branch }}-{{ .Revision }}-
     - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
         --jobs=4 --retry=3 '
@@ -56,7 +55,3 @@ workflows:
       - deploy:
           requires:
             - test
-          filters:
-            branches:
-              only:
-                - master
