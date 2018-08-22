@@ -5,6 +5,8 @@ defaults: &defaults
         BUNDLE_JOBS: 3
         BUNDLE_RETRY: 3
         BUNDLE_PATH: vendor/bundle
+        RAILS_ENV: test
+        RACK_ENV: test
   working_directory: ~/DocuTAP/www.clockwisemd.com
   shell: /bin/bash --login
   parallelism: 1
@@ -23,9 +25,7 @@ jobs:
         - v1-dep-{{ .Branch }}-
         - v1-dep-master-
         - v1-dep-
-    - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
-    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
-        --jobs=4 --retry=3 '
+    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 '
     - run: bundle exec jekyll build
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ .Revision }}-{{ epoch }}
@@ -42,10 +42,8 @@ jobs:
     - restore_cache:
         keys:
         - v1-dep-{{ .Branch }}-{{ .Revision }}-
-    - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
-    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
-        --jobs=4 --retry=3 '
-    - run 'ls -R _site'
+    - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 '
+    - run: 'ls -R _site'
 
 workflows:
   version: 2
@@ -55,7 +53,3 @@ workflows:
       - deploy:
           requires:
             - test
-          filters:
-            branches:
-              only:
-                - master
