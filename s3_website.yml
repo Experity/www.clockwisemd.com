@@ -52,20 +52,7 @@ cloudfront_wildcard_invalidation: true
 # concurrency_level: 5
 
 redirects:
-  about: https://docutap.com/the-platforms/clockwise-md-engagement/
-  contact: https://docutap.com/company/contact/
   markets/emergency-rooms: https://docutap.com/the-platforms/clockwise-md-engagement/
-  markets/labs: https://docutap.com/the-platforms/clockwise-md-engagement/
-  markets/scheduled-care: https://docutap.com/the-platforms/clockwise-md-engagement/
-  markets/urgent-care: https://docutap.com/the-platforms/clockwise-md-engagement/
-  products/patient-paging: https://docutap.com/the-platforms/clockwise-md-engagement/
-  products/queue: https://docutap.com/the-platforms/clockwise-md-engagement/queue/
-  products/survey: https://docutap.com/the-platforms/clockwise-md-engagement/survey/
-  resources: https://docutap.com/resources/topics/patient-engagement/
-  resources/case-studies: https://docutap.com/resources/topics/patient-engagement/
-  resources/events: https://docutap.com/resources/type/events-conferences/
-  resources/news: https://docutap.com/resources/topics/patient-engagement/
-  resources/white-papers: https://docutap.com/resources/topics/patient-engagement/
 
 # routing_rules:
 #   - condition:
