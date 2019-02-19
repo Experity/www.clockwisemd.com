@@ -51,10 +51,21 @@ cloudfront_wildcard_invalidation: true
 
 # concurrency_level: 5
 
-# redirects:
-#   index.php: /
-#   about.php: about.html
-#   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
+redirects:
+  about: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  contact: https://epulp.docutap.com/company/contact/
+  markets/emergency-rooms: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  markets/labs: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  markets/scheduled-care: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  markets/urgent-care: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  products/patient-paging: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/
+  products/queue: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/queue/
+  products/survey: https://epulp.docutap.com/the-platforms/clockwise-md-engagement/survey/
+  resources: https://epulp.docutap.com/resources/topics/patient-engagement/
+  resources/case-studies: https://epulp.docutap.com/resources/topics/patient-engagement/
+  resources/events: https://epulp.docutap.com/resources/type/events-conferences/
+  resources/news: https://epulp.docutap.com/resources/topics/patient-engagement/
+  resources/white-papers: https://epulp.docutap.com/resources/topics/patient-engagement/
 
 # routing_rules:
 #   - condition:
