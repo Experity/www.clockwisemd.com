@@ -52,7 +52,10 @@ cloudfront_wildcard_invalidation: true
 # concurrency_level: 5
 
 redirects:
-  markets/emergency-rooms: https://docutap.com/the-platforms/clockwise-md-engagement/
+  markets/emergency-rooms: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/emergency-rooms/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/er: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/er/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
 
 # routing_rules:
 #   - condition:
