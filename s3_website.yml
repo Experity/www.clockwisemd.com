@@ -72,6 +72,16 @@ redirects:
   products/queue/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/queue
   products/survey: https://docutap.com/the-platforms/clockwise-md-patient-engagement/survey
   products/survey/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/survey
+  resources: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/case-studies: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/case-studies/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/news/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/news: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/white-papers/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/white-papers: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  resources/events: https://docutap.com/resources/type/events-conferences/
+  resources/events/index.html: https://docutap.com/resources/type/events-conferences/
 
 # routing_rules:
 #   - condition:
