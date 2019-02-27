@@ -52,10 +52,40 @@ cloudfront_wildcard_invalidation: true
 # concurrency_level: 5
 
 redirects:
+  about: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  about/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  contact: https://docutap.com/company/contact/
+  contact/index.html: https://docutap.com/company/contact/
+  markets: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   markets/emergency-rooms: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   markets/emergency-rooms/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   markets/er: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   markets/er/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/labs: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/labs/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/scheduled-care: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/scheduled-care/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/urgent-care: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  markets/urgent-care/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  products: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  products/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  products/patient-paging: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  products/patient-paging/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
+  products/queue: https://docutap.com/the-platforms/clockwise-md-patient-engagement/queue
+  products/queue/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/queue
+  products/survey: https://docutap.com/the-platforms/clockwise-md-patient-engagement/survey
+  products/survey/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/survey
+  resources: https://docutap.com/resources/topics/patient-engagement/
+  resources/index.html: https://docutap.com/resources/topics/patient-engagement/
+  resources/case-studies: https://docutap.com/resources/topics/patient-engagement/
+  resources/case-studies/index.html: https://docutap.com/resources/topics/patient-engagement/
+  resources/news/index.html: https://docutap.com/resources/topics/patient-engagement/
+  resources/news: https://docutap.com/resources/topics/patient-engagement/
+  resources/white-papers/index.html: https://docutap.com/resources/topics/patient-engagement/
+  resources/white-papers: https://docutap.com/resources/topics/patient-engagement/
+  resources/events: https://docutap.com/resources/type/events-conferences/
+  resources/events/index.html: https://docutap.com/resources/type/events-conferences/
 
 # routing_rules:
 #   - condition:
