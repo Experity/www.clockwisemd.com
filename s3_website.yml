@@ -52,6 +52,7 @@ cloudfront_wildcard_invalidation: true
 # concurrency_level: 5
 
 redirects:
+  index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   about: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   about/index.html: https://docutap.com/the-platforms/clockwise-md-patient-engagement/
   contact: https://docutap.com/company/contact/
