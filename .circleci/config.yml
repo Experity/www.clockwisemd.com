@@ -1,6 +1,6 @@
 defaults: &defaults
   docker:
-    - image: circleci/ruby:2.5-node-browsers
+    - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
       environment:
         BUNDLE_JOBS: 3
         BUNDLE_RETRY: 3
@@ -16,6 +16,7 @@ jobs:
   test:
     <<: *defaults
     steps:
+      - run: sudo /sbin/init
       - checkout
       - restore_cache:
           keys:
@@ -32,6 +33,7 @@ jobs:
   deploy:
     <<: *defaults
     steps:
+      - run: sudo /sbin/init
       - checkout
       - restore_cache:
           keys:
@@ -52,3 +54,4 @@ workflows:
             branches:
               only:
                 - master
+                - hotfix
