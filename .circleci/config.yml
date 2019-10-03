@@ -16,13 +16,7 @@ jobs:
   test:
     <<: *defaults
     steps:
-      - run: sudo /sbin/init
       - checkout
-      - restore_cache:
-          keys:
-          - v1-dep-{{ .Branch }}-
-          - v1-dep-master-
-          - v1-dep-
       - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 '
       - run: bundle exec jekyll build
       - save_cache:
@@ -33,7 +27,6 @@ jobs:
   deploy:
     <<: *defaults
     steps:
-      - run: sudo /sbin/init
       - checkout
       - restore_cache:
           keys:
